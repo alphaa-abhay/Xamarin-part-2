@@ -1,0 +1,1 @@
+Take details of product with price and quantity in one page and pass in another page with calculated price.
