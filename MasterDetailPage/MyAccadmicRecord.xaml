@@ -30,15 +30,15 @@
                         <TableSection>
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="13,0">
-                                    <Label Text="Result" VerticalOptions="Center"></Label>
-                                    <Label Text="CGPA: 7.8 " VerticalOptions="Center" HorizontalOptions="EndAndExpand"></Label>
+                                    <Label Text="Result" TextColor="Black" FontAttributes="Bold, Italic" VerticalOptions="Center"></Label>
+                                    <Label Text="CGPA: 7.8 " TextColor="Black" FontAttributes="Bold, Italic" VerticalOptions="Center" HorizontalOptions="EndAndExpand"></Label>
                                 </StackLayout>
                             </ViewCell>
                         </TableSection>
                         <TableSection>
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="13,0">
-                                    <Label Text="CAP118: Computer Programming-I" VerticalOptions="Center"></Label>
+                                    <Label Text="CAP118: Computer Programming-I" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center"></Label>
                                     <Label Text="70" VerticalOptions="Center" HorizontalOptions="EndAndExpand"></Label>
                                 </StackLayout>
                             </ViewCell>
@@ -46,7 +46,7 @@
                         <TableSection>
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="13,0">
-                                    <Label Text="CAP126: Computer Programming-II" VerticalOptions="Center"></Label>
+                                    <Label Text="CAP126: Computer Programming-II" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center"></Label>
                                     <Label Text="75" VerticalOptions="Center" HorizontalOptions="EndAndExpand"></Label>
                                 </StackLayout>
                             </ViewCell>
@@ -54,7 +54,7 @@
                         <TableSection>
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="13,0">
-                                    <Label Text="CAP281: Object Oriented Programming" VerticalOptions="Center"></Label>
+                                    <Label Text="CAP281: Object Oriented Programming" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center"></Label>
                                     <Label Text="90" VerticalOptions="Center" HorizontalOptions="EndAndExpand"></Label>
                                 </StackLayout>
                             </ViewCell>
@@ -62,7 +62,7 @@
                         <TableSection>
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="13,0">
-                                    <Label Text="CAP214: Fundamentals of Web Programming" VerticalOptions="Center"></Label>
+                                    <Label Text="CAP214: Fundamentals of Web Programming" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center"></Label>
                                     <Label Text="70" VerticalOptions="Center" HorizontalOptions="EndAndExpand"></Label>
                                 </StackLayout>
                             </ViewCell>
@@ -70,7 +70,7 @@
                         <TableSection>
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="13,0">
-                                    <Label Text="CAP374: Game Design" VerticalOptions="Center"></Label>
+                                    <Label Text="CAP374: Game Design" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center"></Label>
                                     <Label Text="95" VerticalOptions="Center" HorizontalOptions="EndAndExpand"></Label>
                                 </StackLayout>
                             </ViewCell>
@@ -78,7 +78,7 @@
                         <TableSection>
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="13,0">
-                                    <Label Text="ECE851: Introduction and Programming with IOT Platforms" VerticalOptions="Center"></Label>
+                                    <Label Text="ECE851: Introduction and Programming with IOT Platforms" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center"></Label>
                                     <Label Text="95" VerticalOptions="Center" HorizontalOptions="EndAndExpand"></Label>
                                 </StackLayout>
                             </ViewCell>
@@ -86,7 +86,7 @@
                         <TableSection>
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="13,0">
-                                    <Label Text="CAP588: Mobile Application Development" VerticalOptions="Center"></Label>
+                                    <Label Text="CAP588: Mobile Application Development" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center"></Label>
                                     <Label Text="80" VerticalOptions="Center" HorizontalOptions="EndAndExpand"></Label>
                                 </StackLayout>
                             </ViewCell>
