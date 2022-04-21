@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Android_App.Page10" NavigationPage.HasNavigationBar="False">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" BackgroundColor="Green" Opacity="0.8">
+            <StackLayout>
+                <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                <Button Text="📸 My Gallary" TextColor="Azure" Clicked="onfirst" BackgroundColor="OrangeRed" Opacity="1.0"></Button>
+                <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                <Button Text="🧾 My Profile" TextColor="Azure" Clicked="onsecond" BackgroundColor="DarkRed" Opacity="1.0"></Button>
+                <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                <Button Text="📚 My Academic Record" TextColor="Azure" Clicked="onthird" BackgroundColor="OrangeRed" Opacity="1.0"></Button>
+                <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                <Button Text="🏡 Home" TextColor="Azure" Clicked="onhome" BackgroundColor="DarkRed" Opacity="1.0"></Button>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <Grid>
+                <BoxView x:Name="bdGradient" Scale="3" AnchorX="1" AnchorY="0">
+                    <BoxView.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#23D5AB" Offset="0.3"/>
+                            <GradientStop Color="#23A605" Offset="0.5" />
+                            <GradientStop Color="#E73C7E" Offset="0.7" />
+                            <GradientStop Color="#EE7752" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </BoxView.Background>
+                </BoxView>
+                <StackLayout Padding="40">
+                    <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                    <Label FontSize="42" Text="👨🏻‍🎓 Student Profile 👩🏻‍🎓" TextColor="DarkBlue"
+                        VerticalOptions="Center" HorizontalOptions="CenterAndExpand" />
+                    <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                    <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                    <Frame BackgroundColor="LightGreen" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150" BorderColor="DarkGreen">
+                        <Button Text="📸 My Gallary" TextColor="Black" FontSize="30" Clicked="onfirst" BackgroundColor="Transparent"/>
+                    </Frame>
+                    <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                    <Frame BackgroundColor="DodgerBlue" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150" BorderColor="DarkBlue">
+                        <Button Text="🧾 My Profile" TextColor="Black" FontSize="30" Clicked="onsecond" BackgroundColor="Transparent"/>
+                    </Frame>
+                    <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                    <Frame BackgroundColor="OrangeRed" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150" BorderColor="DarkRed">
+                        <Button Text="📚 My Academic Record" TextColor="Black" FontSize="30" Clicked="onthird" BackgroundColor="Transparent"/>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>
