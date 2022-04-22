@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_App.Page2">
+    <ContentPage>
+        <Grid>
+            <BoxView x:Name="bgGradient" Scale="3" AnchorX="1" AnchorY="0">
+                <BoxView.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#23D5AB" Offset="0.3"/>
+                        <GradientStop Color="#23A605" Offset="0.5" />
+                        <GradientStop Color="#E73C7E" Offset="0.7" />
+                        <GradientStop Color="#EE7752" Offset="1.0" />
+                    </LinearGradientBrush>
+                </BoxView.Background>
+            </BoxView>
+            <StackLayout>
+                <Button Text="🏡" TextColor="Black" FontSize="40" Clicked="onhome" BackgroundColor="Transparent" 
+                            VerticalOptions="Start" HorizontalOptions="Start"/>
+                <Frame Padding="10" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent" HeightRequest="500" WidthRequest="500">
+                    <Image Source="https://lh3.googleusercontent.com/J_Wx0VvANFden6abR6llfjsNiLFaBDNHGE2wnz8J7MrDLG2TqDgdkIIbFOlXeIErZMs0mJHGZrrhB2iS4LHvTPI5dUvEuIsoBL8QUoUWcVG-yGfCEQb6ldSR6HGiFrjdAlSWyPStVrwWrLngMeeJSWYWzX9CktRC_hydUGdQBs8hCHBdeeMl57XhqU0x2h9GXUe1SGvNnVFmkHLLz-13ZJrwRjTv0jIAYW9G1GW8b_KvUZf3A6hw1a4AtQKPku1ySmGBTq9J8Y6DyrBie-FIx6nYmckvr-ffdZNpf5E_yNZDogLOX4uWS52EusFlMiBQv6QpE3H91hSNJNSLKm_UUK8gCw4-f6B8RcNTBeGXjT0-gazB1u__puYpbtr7XEci3VjCAUb0AFhWfFlUQQTvLjejGSWqqg7odvLSPLiHGJkizjMnZH-Pn1UpbZP_4V3MECI4IUtI8qBYGQ5xwlYMk3mTlo0EMQRpMqDxd_OcAyt8-BkORwhusK1RGq3jdNhVwUpf6Yd6TtLPAYv0n8GZe29NdpEi8UAQWiUtxLXDA8YChb0CcNGL1cldNeHiSuAETEWhqnR7jl48Dqp4PGXOCUM8bFwmfQZM_c0sqgk8WcOn_Dk30Y4OMic4fwYDonHrdgtDZE8HaHyOaeLL2gn0XBN5BNrl-y808grhhqc7Kmmlsu3-ae5U6I_e_KFDv3UN5k8daFw0ju9CzoddAtAS-jpfj5t6M_Uegt_bf5w0qKFyPTYQGPUHyt1cRdw=w1324-h991-no?authuser=0"></Image>
+                </Frame>
+                <Frame Padding="10" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent" HeightRequest="500" WidthRequest="500">
+                    <Image Source="https://lh3.googleusercontent.com/IfHcpP2sllBsAXfE7I6Tcz2OIq_g0K0Fs1K_y0S1oXZg68wniOQ9M0-p3ynEtEqLXKV5IeAgC4h5Gw9jOf9q-PAkllaJ-CdT45S7dsKuKbqFz0eaHELT2clhyPvJVDhAPDlu4lwfwLKe3DGdG3_cweBgxwGL6_WnfxwGfxTeUWLhUp_wPsYu-yjW1lwxxHNEtr07WEZibi00pANftoD58-BZh1CcbZwCFH3Yyg3Pt25aN5ZKstTGtSS9BFgy6QmMn_fgjph24DQ348vxv5YLLXK7XCaMhhF-7NzIvEVF3-gUSOkOswAIQjd0h8mIKY1AQKz8pyI6XBCjbtlJ3RW2pdRm_97GMIwT3mduuoL_PVMg9Du2L8Hov3zv_icsBFQobyJrRj0rU4GyUvwF7N6_s9NhojEZOEfdCXigFzbTEtacDMhG51K-W0qGfm-Ufn7RAXCEQ53SOIJIU_YFzNU3W04OfcIEbiuYtW1nt0z0zVNZ4eCKYz87dwOQdk_cgzM8DrC8gXzIDmofLpWomT2y-x-EPg-YKuJWrvCJ1Xd0l7DYKJH6fDYz7MkwosS-T1QcyjNs1XQZYQf7RI0ASdnsGzTBhxClpPOthG8PFpr0jYptrCDVDfYU8NVtrglAbcATkLKbwH7MvhyzFHj3D5SIyMVw3UpmuRRYLlThJnk3gV-IaM90YBKd-AUushZHsq3ktDHnOcUm9wGOxADLnZ4OP2PXLQLLOF0ayrUxQ7FRmN-USrxKSHyUO58aobA=w1322-h991-no?authuser=0"></Image>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <ContentPage>
+        <Grid>
+            <BoxView x:Name="bgGradient1" Scale="3" AnchorX="1" AnchorY="0">
+                <BoxView.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#23D5AB" Offset="0.3"/>
+                        <GradientStop Color="#23A605" Offset="0.5" />
+                        <GradientStop Color="#E73C7E" Offset="0.7" />
+                        <GradientStop Color="#EE7752" Offset="1.0" />
+                    </LinearGradientBrush>
+                </BoxView.Background>
+            </BoxView>
+            <StackLayout>
+                <Button Text="🏡" TextColor="Black" FontSize="40" Clicked="onhome" BackgroundColor="Transparent" 
+                            VerticalOptions="Start" HorizontalOptions="Start"/>
+                <Frame Padding="10" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent" HeightRequest="500" WidthRequest="500">
+                    <Image Source="https://lh3.googleusercontent.com/-Lmjhqx3BbxPLlBMxV3181p6eKkk2GEpCYcm2wppEQb4mqXESRJkCzFDitTZadUq9z8dNk-VjCI5nTI6z2LCcjvR2CK-9RjD4WdAEJYzbW-D9vfG3KWuSuXPiu8IlxUPwbEnycThUPdabssFlevOTXqBBjdn4JI1HgnaSia2ar1BC3h8zSnb0F70TsXwZbJfk5BKFYoFVPVRypAzs8zeaPYHDF4LyWEnhnii0oHEbK6CHzKqWDgdKvOtzLwmKiybmsiigirk8dQtinMEZLbf4rfmtZbXe-Kf3lzNkVnU2gr-jM3lWS9Xps4hSnvsHNJAXt9m8n0vXD1KXAiGYQVv7BLnZ1XhXkIpB0bEjdzbb4QPmPoeMygx9chZ6IcQcIvYC8Ph0N3-doi9VPTsNUZSFjN8V7m-NAbtx2lgq-hc-F7W_w67-eLLD7hoJhHvhCdD_7RcQfRy4Ow0eg317PV_oyQqLW_t3tYC791pf22qG75EtbWgaTHPaaCq0H5FHXl3kuDV1XxaLwg75SVi1GW1kheTMMtvd0vG_ceRN8tnf8wp-M9gIzzbKPNP88FJbAEgEpLaVL_vI7QKsPEQxQhejCni1SoIjYKCC6sLuCXzzIzzGLVa0V1A-kEYXbZ343MICyNU_SNDL86wJYPjNEpnUMyIOByvZgo7rsukD-FHhWOXoF0fOwWGcgkHnPmrtyPlUK8PIS488h3kN2rfDQG00vtw_7a9QiaDZ7_pC06JmKQ269LM8SSKD2WAvKQ=w1280-h960-no?authuser=0"></Image>
+                </Frame>
+                <Frame Padding="10" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent" HeightRequest="500" WidthRequest="500">
+                    <Image Source="https://lh3.googleusercontent.com/Py1F1k_PdwjQBa-lciwjr0LhuA7zuyQ1_LX_TVw43LbGATBSuLgMpd1qXwxtmZkjiRjbSwjHKa7t34T8ni3DhM6269gipFUzyU4qNTy0UqitnpSqvmvEtMesIoMRqSadVnZmSmzyf5l9dJLKkBnUQKdXnjkoxG7MdjF_GIGD6rU9r-NhKVF4gbP9HHtHcsdG3x7ynWeotR7axp_wPmcrUUKgw7cAf3tgRtZSPm_CZOIsIrelrHUwpCKWKKj_Wpl0ctz68m1-4M_whiMo725E30jsQWECA97IDDBmwfRFKJbVk2SBE8KspgHrhptQaHlObw11M6Pig5CWsqiCEoyvYGt6xaIOmY63OTearIzAEl_WTyLqhYL30_eQKNNvfh31lsGJHR7zHq8fyBLeNWwMypxPAwnc0P3XgNIoCc85D-mWjjArvo4fcz94R6RiAUiXiXIUl5Ucd0wExGA4ardzuyEiNpRssuI96NXxTzQnCTTLkzoorlfeNuYTShxYjcyYVG-SALkKLUBcols7kFgihUMGrtEIfYS8MKuR-BciM7Aqf_Cny1062qwzv6Jdytz7I_R5KOWA9ebhJ7G037WkVs6dPU6EnLnjX-YvYB_EaItFisZ3SXWt2QMp9pJ1wIH2JvgOCMTpqyoyjew-Wq90PGOTd8GfqdryIQjoy3hgoEbvL-LCDXlc4iVCNVrMftHsHwtoGmJNXCgJcD-hwM1aonC2wpH4Jmwy7uAHpjtkGp9ItXA81mcHwzF_FdY=w1280-h720-no?authuser=0"></Image>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <ContentPage>
+        <Grid>
+            <BoxView x:Name="bgGradient2" Scale="3" AnchorX="1" AnchorY="0">
+                <BoxView.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#23D5AB" Offset="0.3"/>
+                        <GradientStop Color="#23A605" Offset="0.5" />
+                        <GradientStop Color="#E73C7E" Offset="0.7" />
+                        <GradientStop Color="#EE7752" Offset="1.0" />
+                    </LinearGradientBrush>
+                </BoxView.Background>
+            </BoxView>
+            <StackLayout>
+                <Button Text="🏡" TextColor="Black" FontSize="40" Clicked="onhome" BackgroundColor="Transparent" 
+                            VerticalOptions="Start" HorizontalOptions="Start"/>
+                <Frame Padding="10" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent" HeightRequest="500" WidthRequest="500">
+                    <Image Source="https://lh3.googleusercontent.com/BizD0yhgkPt3RpAcfTnvgL-wjKcU9k1bCG8NUd99PdvvXem6lNl2-2xAOjkXMsL77J_dierkIYJZyAGMFEF7St2JCAMIqf5bkQGvvSOB0oA0gaPGRuhVUNnNIPgMppvFK_VUnnRjZGge_VKzNIaTK2OckLSeVJPjuJNZKO9FIY5lizIdibKRAWKnEYiNuSqkbwwvU2dswJ1cklZXjQboPYFZwuAWSVQ5MwK4p0qSZwMDgPqsZjtnrAeh03u23sznXX9IWpEmZkp-uyXnwo2-d4nEeX3TlcOXwa8t6dodQ7vuBhlS7_u-Lu7JyVZPst_yM_Xe_jos9Wu_uSvA5ja1hErmKC04sytu15Ysocv2GG3jweDN-1zfvfuZb0hSW1-be6XNi8MAq8fYnp_PEWL3OPOSiU_PhZHrpWOSeh6CKj5gnJKMgbd3dinvTPlFMctPr1CfcRw7rJMpsucZGA2TbAgRUQg8JwGLdNVnIjBrJhscHLrO5RtvQrwYb69EiAkGEdRAJ7wmH7HBlWVExAUHDADbujg0gUvISNlOcrOiJ1fm9fYWLJ0wBda1Y4HCaxGNLLfZbvXrM9D5KfUFs_nE6YZ_eexrLSwvjWqYNHsE_CBmxKSIbofnTFa1hdYyjHzsCppOIlSFuTuiXegW4srjqXMTzGrqCabvU4D3mCTQTmZtJRcQ0KEaGluqAbAHP36GN-BkB50czZ_R07Q3XFLvkafdmept81-HHvcu0phCsQXQ5a4ORQwooy0hkIw=w1280-h960-no?authuser=0"></Image>
+                </Frame>
+                <Frame Padding="10" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent" HeightRequest="500" WidthRequest="500">
+                    <Image Source="https://lh3.googleusercontent.com/yrcx7o_v9mq5WvI4sKg9Bp9_9nQ04LF3RBQe10ZbO_yktnMV8_1ouHatwcO2S2UvtTLdInxl7GwW1bpg-Z-Koqza8loOBfEs9JGpGwyu2Yai8u-oK9h4kJKJTfEupYODiTphvNiMeQIHzY40mjEn1g3qyGtSoNQN7LgEjNIUbTjnSdTk8Q2VMp9oSDQaK_M7hOShSGGJ7gav4ycMDEpuU6SxtA2RkJ317c6GtI7a_ngLfv7zVfqisChwsXyAvQ21Tjamvi3pbim_ASEA1fi8pNMJCizMc3jsoqFq8zgh6uPBLEL_6eQgfdQgHun80wKAVrx3WMtMBISIDGF0Y6NjIEmwTDMJ1K_z1BFMpjyTvA_8XU5dyfKRpEQLZBA-g_HIvjJU1bliYP-jSoc10Yxmex7IiCjY917Kd40ZCcHylXWkoqV5yCB9kOcEK4vnAMcz3pg9rHfxSS1NTr8Vu-JIHiZYC6UXJ83thRJyQUnuwVul-SdrcR-tQkpHJpFV_-clhp5iwPjV92igXULxElo0Mde7sK-Lo3qUc3q6EzX6SDMmVq_KN-9rwjmvaQtHUpbc6tOXLGI_zpTfnoi6bKY2C11ir7RWyIi0qVEqMN65qa06oSBKQ4A66z1J76EnTWzKj2hgVGfVsn7m_LE45CMEaqGFpJ096K9C3XyrBy2da3DZJlQOawJKEbaj_g2SH2z2vFrxFKFx_UJAtrfpCAb1LMVCpSxc-vmbgn2EUqXmC9xB0WPMom0R-SOCs2s=w744-h991-no?authuser=0"></Image>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+</CarouselPage>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_App.Page3">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="White">
+                </Setter>
+                <Setter Property="FontSize" Value="Medium">
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <BoxView x:Name="bdGradient" Scale="3" AnchorX="1" AnchorY="0">
+                <BoxView.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#23D5AB" Offset="0.3"/>
+                        <GradientStop Color="#23A605" Offset="0.5" />
+                        <GradientStop Color="#E73C7E" Offset="0.7" />
+                        <GradientStop Color="#EE7752" Offset="1.0" />
+                    </LinearGradientBrush>
+                </BoxView.Background>
+            </BoxView>
+            <StackLayout>
+                <Button Text="🏡" TextColor="Black" FontSize="40" Clicked="onhome" BackgroundColor="Transparent" 
+                            VerticalOptions="Start" HorizontalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Padding="40">
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                    <Label FontSize="42" Text="My Profile 👨🏻‍🎓" TextColor="DarkBlue"
+                        VerticalOptions="Center" HorizontalOptions="CenterAndExpand" />
+                    <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Frame CornerRadius=" 500 " HasShadow="False" Padding="0" Margin="0" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" BackgroundColor="White" HeightRequest="200" WidthRequest="130">
+                        <Image Source="https://lh3.googleusercontent.com/m0DIkykxhDfHzsT8nlP1LFNo8aXCxzgdcXNVMQlCkfBZ22KqtYFc9nWNMGf8LA0iSufkxvLAGqoGF-T8nHMRiwsBKpyj85jV_uMevZlm71aw3jnBR7NN-GPGmZ6knuMJyZII2VKRViz49R5LaywOmX51nOtVW956HvouS_l5wqA6c3jzMQc8INP7oMTG9DSH4n-KvMV-Kha8EY3YBfXka8aj6F_yVYdAld2oeYm0uve-iX6-p6942orv0XstCIdKNdix1rFz-k-AQMaL-OJpqlNPv9eBEaiWE_AZVgAOw8haj7VEfnN5gLjBdNQbrpfUvifF4k9nXLL7ml8HlBFrgOXAsoXpOV5cmJsa4z1GQCpsLvw4E4jJplzClClCkDNsN77qTt_D2s9JlIBnwyhK68ch3e4kYhrvr2JTygwJ0ySWTeCto_H_KYfZuXXK4n0B8WBpNyXI90CUKbDt1PAKyD3Y6mZdVna_mHIZblgduTDsVtKAWfFkE5HRM-aZhfGJvyK-qqLVZn3OfnG8_1YLsN1q-ZLtxhBSG-0L3bSgqKz0AQoR4sdaJBzpAAl3pe-Bt-PBA8pf0QxmmibG20g5ZfyAqihenG6jn7GKMIseGQtx3wbkyHLmky0p6mUvzyVATXRw5MxdNmS4IeMs4YXuz797paY1Bug15M_SOO14WbUghEJDbfB2HGCZOs_gMvi6D-X1BAu7m9Qp0UD3XujX0YNvG_s_44sEiWF5_CUus5fVYXHITQVQggcBbJ4=w576-h706-no?authuser=0"/>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Label FontSize="40" TextColor="Black" FontAttributes="Bold, Italic" Text="User Name: "/>
+                    <Label FontSize="35" TextColor="Black" Text="Chetan Vishwakarma"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="40" TextColor="Black" FontAttributes="Bold, Italic" Text="Gender: "/>
+                    <Label FontSize="35" TextColor="Black" Text="Male"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="40" TextColor="Black" FontAttributes="Bold, Italic" Text="Age: "/>
+                    <Label FontSize="35" TextColor="Black" Text="22"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="40" TextColor="Black" FontAttributes="Bold, Italic" Text="Contact: "/>
+                    <Label FontSize="35" TextColor="Black" Text="887272XXXX"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="40" TextColor="Black" FontAttributes="Bold, Italic" Text="D.O.B: "/>
+                    <Label FontSize="35" TextColor="Black" Text="25 Dec 1999"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Label FontSize="40" TextColor="Black" FontAttributes="Bold, Italic" Text="Email: "/>
+                    <Label FontSize="35" TextColor="Black" Text="chetanxxxxx@gmail.com"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Label FontSize="40" TextColor="Black" FontAttributes="Bold, Italic" Text="Course: "/>
+                    <Label FontSize="35" TextColor="Black" Text="B.Sc. (Computer Science)"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="40" TextColor="Black" FontAttributes="Bold, Italic" Text="Batch: "/>
+                    <Label FontSize="35" TextColor="Black" Text="2019"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
