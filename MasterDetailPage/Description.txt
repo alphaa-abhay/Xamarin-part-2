@@ -1,5 +1,0 @@
-MasterDetailPage which display menu items:
-Button1 --> MyGallary
-Button2 --> MyProfile
-Button3 --> MyAcademicRecord
-Call these pages on button click by using MasterDetailPage
