@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_App.Page5" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid>
+            <BoxView x:Name="bdGradient" Scale="3" AnchorX="1" AnchorY="0">
+                <BoxView.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#23D5AB" Offset="0.3"/>
+                        <GradientStop Color="#23A605" Offset="0.5" />
+                        <GradientStop Color="#E73C7E" Offset="0.7" />
+                        <GradientStop Color="#EE7752" Offset="1.0" />
+                    </LinearGradientBrush>
+                </BoxView.Background>
+            </BoxView>
+            <StackLayout Padding="30">
+                <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                <Label FontSize="86" Text="Food Court" TextColor="DarkBlue"
+                        VerticalOptions="Center" HorizontalOptions="CenterAndExpand" />
+                <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+                <StackLayout Orientation="Horizontal">
+                    <Entry Placeholder="Enter the quantity: " x:Name="txtq" FontSize="30" TextColor="Black" FontAttributes="Bold, Italic" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="Gold" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150">
+                        <StackLayout>
+                            <Button Text="Burger    🍔" TextColor="Black" FontSize="Title" BackgroundColor="Transparent" Clicked="onburger"/>
+                            <Label FontSize="Medium" TextColor="Black" Text="₹180" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Orange" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150">
+                        <StackLayout>
+                            <Button Text="Pizza       🍕" TextColor="Black" FontSize="Title" BackgroundColor="Transparent" Clicked="onpizza"/>
+                            <Label FontSize="Medium" TextColor="Black" Text="₹240" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="OrangeRed" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150">
+                        <StackLayout>
+                            <Button Text="Fries        🍟" TextColor="Azure" FontSize="Title" BackgroundColor="Transparent" Clicked="onfries"/>
+                            <Label FontSize="Medium" TextColor="Azure" Text="₹80" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Red" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150">
+                        <StackLayout>
+                            <Button Text="Hot Dog 🌭" TextColor="Azure" FontSize="Title" BackgroundColor="Transparent" Clicked="onhotdog"/>
+                            <Label FontSize="Medium" TextColor="Azure" Text="₹280" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="LightGoldenrodYellow" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150">
+                        <StackLayout>
+                            <Button Text="Pop Corn🍿" TextColor="Black" FontSize="Title" BackgroundColor="Transparent" Clicked="onpopcorn"/>
+                            <Label FontSize="Medium" TextColor="Black" Text="₹50" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Azure" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150">
+                        <StackLayout>
+                            <Button Text="Sandwich 🥪" TextColor="Black" FontSize="Title" BackgroundColor="Transparent" Clicked="onsandwich"/>
+                            <Label FontSize="Medium" TextColor="Black" Text="₹70" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="Firebrick" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150">
+                        <StackLayout>
+                            <Button Text="Noodles 🍜" TextColor="Azure" FontSize="Title" BackgroundColor="Transparent" Clicked="onnoodle"/>
+                            <Label FontSize="Medium" TextColor="Azure" Text="₹90" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="DodgerBlue" CornerRadius=" 15 " HeightRequest="100" WidthRequest="150">
+                        <StackLayout>
+                            <Button Text="Ice Cream 🍨" TextColor="Azure" FontSize="Title" BackgroundColor="Transparent" Clicked="onicecream"/>
+                            <Label FontSize="Medium" TextColor="Azure" Text="₹40" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
